@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
     private String createAuthToken(String username, String password) {
         byte [] data =new byte[0];
         try{
-        data=(username + ":" +password).getBytes("UTF-8");
+            data=(username + ":" +password).getBytes("UTF-8");
         } catch (UnsupportedEncodingException e){
             e.printStackTrace();
         }

@@ -6,7 +6,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.Retrofit;
 
 public class RetrofitClient {
-    private static final String Api_URL="http://192.168.16.216:4400/getActiveUserList";
+    private static final String Api_URL="http://192.168.16.216:4400/getActiveUserList/";
     private static Retrofit retrofit;
     private static Gson gson;
 
